@@ -3,9 +3,9 @@ variable "region" {
 }
 
 variable "access_key" {
-    default = "AKIAYYLBSKPPFRE7QHXJ"
+    default = "AKIA47CRUWJHVTCKON64"
 }
 
 variable "secret_key" {
-    default = "yrXxTMKKBkyoauobKUjS7nupyx1gbg4E1ZQT2DSc"
+    default = "VgITQ4xbGOUAMwt2f89Bk858dcWQdD7hz/KOukD8"
 }
