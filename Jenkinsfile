@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout SCM'){
             steps{
                 script{
-                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/chiru912/EKS-Terraform-Jenkins.git']])
+                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'git', url: 'https://github.com/chiru912/Terraform-EKS-AWS-.git']])
                 }
             }
         }
